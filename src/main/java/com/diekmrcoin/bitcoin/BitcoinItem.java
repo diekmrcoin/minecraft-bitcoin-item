@@ -1,5 +1,6 @@
 package com.diekmrcoin.bitcoin;
 
+import com.diekmrcoin.bitcoin.registry.ModBlocks;
 import com.diekmrcoin.bitcoin.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -9,5 +10,6 @@ public class BitcoinItem implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.registerItems();
+        ModBlocks.registerBlocks();
     }
 }

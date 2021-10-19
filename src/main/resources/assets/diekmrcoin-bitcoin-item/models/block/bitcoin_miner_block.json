@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "diekmrcoin-bitcoin-item:blocks/bitcoin_miner_block"
+  }
+}
