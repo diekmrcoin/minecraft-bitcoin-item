@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "diekmrcoin-bitcoin-item:items/bitcoin"
+  }
+}

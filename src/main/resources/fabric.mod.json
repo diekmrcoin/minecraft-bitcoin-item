@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "diekmrcoin-bitcoin-item",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Bitcoin Item",
+  "description": "This is a tutorial mod of making a bitcoin to stack in the inventory",
   "authors": [
-    "Me!"
+    "diekmrcoin"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://diekmrcoin.com/",
+    "sources": "https://github.com/diekmrcoin/minecraft-bitcoin-item"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "mit",
+  "icon": "assets/diekmrcoin-bitcoin-item/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.diekmrcoin.bitcoin.BitcoinItem"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
